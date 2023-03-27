@@ -1,2 +1,5 @@
-service.name = iht-decommission-frontend
-service.text = This is your new service
+service.name = Complete an Inheritance Tax estate report
+
+decommission.title = Sorry, the service is unavailable
+decommission.body = The Inheritance Tax online service has now closed.
+decommission.link = Find out how to value an estate for Inheritance Tax and report its value.

@@ -10,7 +10,6 @@ lazy val microservice = Project("iht-decommission-frontend", file("."))
     // suppress warnings in generated routes files
     scalacOptions += "-Wconf:src=routes/.*:s",
     scalacOptions += "-Wconf:cat=unused-imports&src=html/.*:s",
-    pipelineStages := Seq(gzip),
   )
   .configs(IntegrationTest)
   .settings(integrationTestSettings(): _*)
